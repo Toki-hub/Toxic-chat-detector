@@ -1,0 +1,36 @@
+# ==== Dataset Kaggle (train.csv, test.csv, zip aslinya) ====
+# Besar (± 70 MB gabungan) dan bisa diunduh ulang dari Kaggle kapan saja.
+data/
+train.csv
+test.csv
+sample_submission.csv
+*.zip
+
+# ==== Model hasil training ====
+# Semuanya dibuat ulang oleh train.py (model.pt, metrics.json, replay.jsonl,
+# submission.csv) atau oleh pemakaian sehari-hari (feedback.jsonl, new_words.json).
+model/
+
+# ==== Python ====
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# ==== Virtual environment ====
+venv/
+.venv/
+env/
+
+# ==== Log ====
+*.log
+train_log.txt
+nohup.out
+
+# ==== OS / editor ====
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
